@@ -18,6 +18,7 @@ const ConfiguracionUsuario: React.FC = () => {
   return (
     <div className="container">
       <h2>Configuración de Usuario</h2>
+      <p>Agregue su meta diaria en litros</p>
       <input
         type="number"
         value={dailyGoal}
